@@ -70,6 +70,28 @@ s
               </div>
             </div>
 
+            <div className='design'style={{backgroundImage: `url(${DesignBanner2})`}}>
+              <div className='IxDstuff'>
+                  <h2>internet Artwork</h2>
+                  <p>
+                    This time around i found that creating an internet artwork was really difficult and i just struggled my way through almost everything. i wanted to include a game i made on unity but i could not find any useful tutorilas and guides so i ultimately gave up on doing that and instead opted to make a canvas as in my original idea but even then my artworks did not turn out how i would of liked them to. I wish i actually figured out how to implement the unity game properly but no matter how i tried i just could not get it to work as i wanted it to the game would have many compling errors
+                 
+                   </p>
+                  <p>
+                    i did learn quite alot about react through the process of created my artworks. The power and variety that this software holds is really amazing and one can really see that if a person knows what they are dowing with react the things they can create will have massive potential and they can truly make very facinating things.
+            
+                   </p>
+
+                   <h2>added</h2>
+
+                   <p>
+                    i decided to redo the footer of the website and make the blog size more justified to the content. i started another website becaus ei thought of rebulding from scratch but that endevour was useless and i messed up the cod on that website so i continued building here. i can say that i am atleast happy at how this website turned out and i cant wait to see what else i can do using react. I hope i can build a very useful portfolio with this knowledge.
+
+                   </p>
+                 
+              </div>
+            </div>
+
         </div>
     )
   }

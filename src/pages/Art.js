@@ -1,16 +1,22 @@
-import React, { Component } from 'react';
-import "../styles/Art.css";
-import ArtBanner from "../assets/iaback.jpg"
+import React, { Component } from 'react'
+import "../styles/Blogs.css";
+import BlogmainBanner from "../assets/angelsky.jpg"
+import {TimelineList} from '../helpers/TimelineArt';
+import ArtItem from '../components/ArtItem';
 
 export default class Art extends Component {
   render() {
     return (
-        <div className='art'style={{backgroundImage: `url(${ArtBanner})`}}>
-            <div className='ArtContainer'>
-            <h1>My Internet Art</h1>
-            <h2>COMMING SOON</h2>
+        <div className= "art"style={{backgroundImage: `url(${BlogmainBanner})`}}>
+          <h1 className="artTitle">Blog Menu</h1>
+          <div className='artList'>
+            {TimelineList.map((artItem, value) => {
+              return(
+                <ArtItem value={value} name={artItem.name} button={artItem.button} image={artItem.image} discription={artItem.description}/>
+              )
+            })}
 
-            </div>
+          </div>
         </div>
     )
   }

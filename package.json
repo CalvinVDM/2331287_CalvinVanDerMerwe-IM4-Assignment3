@@ -1,6 +1,6 @@
 {
   "name": "lastreact",
-  "homepage": "https://CalvinVDM.github.io/2331287_CalvinVanDerMerwe-IM4-Assignment3",
+  "homepage": "https://CalvinVDM.github.io/2331287_CalvinVanDerMerwe-IM4-ExamFinal",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -16,6 +16,8 @@
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.12.0",
     "react-scripts": "5.0.1",
+    "react-unity-webgl": "^9.4.2",
+    "react-vertical-timeline-component": "^3.6.0",
     "router-dom": "^2.2.11",
     "styled-components": "^5.3.11",
     "web-vitals": "^2.1.4"

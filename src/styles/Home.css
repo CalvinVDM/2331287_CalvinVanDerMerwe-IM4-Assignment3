@@ -35,7 +35,7 @@
     font: 40px;
     font-weight: lighter;
     color: black;
-    background-color: rgba(255, 255, 255, 0.478);
+    background-color: rgba(255, 255, 255, 0.78);
 }
 
 @media only screen and(max-width: 600px){

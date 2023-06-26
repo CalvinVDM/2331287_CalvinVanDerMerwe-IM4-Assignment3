@@ -22,6 +22,9 @@ import  Essay from './Theory/Essay';
 import Theory1 from './Theory/Theory1';
 import Theory2 from './Theory/Theory2';
 import Theory3 from './Theory/Theory3';
+import IArt1 from './Art/InternetArt1';
+import IArt2 from './Art/InternetArt2';
+
 
 
 function App() {
@@ -49,6 +52,10 @@ function App() {
       <Route exact path='/theory1' element={<Theory1/>}/>
       <Route exact path='/theory2' element={<Theory2/>}/>
       <Route exact path='/theory3' element={<Theory3/>}/>
+      <Route exact path='/internetart1' element={<IArt1/>}/>
+      <Route exact path='/internetart2' element={<IArt2/>}/>
+      
+
      </Routes>
      <Footer/>
 
